@@ -139,6 +139,20 @@
     </div>
     <div class="col-sm-4">
       <div class="thumbnail">
+        <img src="newyork.jpg" alt="New York" width="400" height="300">
+        <p><strong>New York</strong></p>
+        <p>We built New York</p>
+      </div>
+    </div>
+    <div class="col-sm-4">
+      <div class="thumbnail">
+        <img src="newyork.jpg" alt="New York" width="400" height="300">
+        <p><strong>New York</strong></p>
+        <p>We built New York</p>
+      </div>
+    </div>
+    <div class="col-sm-4">
+      <div class="thumbnail">
         <img src="sanfran.jpg" alt="San Francisco" width="400" height="300">
         <p><strong>San Francisco</strong></p>
         <p>Yes, San Fran is ours</p>
@@ -158,13 +172,13 @@
     <!-- Wrapper for slides -->
     <div class="carousel-inner" role="listbox">
       <div class="item active">
-        <h4>"This company is the best. I am so happy with the result!"<br><span>Michael Roe, Vice President, Comment Box</span></h4>
+        <h4>"This journal is the best. I am so happy with the result!"<br><span>Michael Roe, Vice President, Comment Box</span></h4>
       </div>
       <div class="item">
-        <h4>"One word... WOW!!"<br><span>John Doe, Salesman, Rep Inc</span></h4>
+        <h4>"One word... WOW!!"<br><span>ASDADADA</span></h4>
       </div>
       <div class="item">
-        <h4>"Could I... BE any more happy with this company?"<br><span>Chandler Bing, Actor, FriendsAlot</span></h4>
+        <h4>"Could I... BE any more happy with this journal?"<br><span>Chandler Bing, Actor, FriendsAlot</span></h4>
       </div>
     </div>
 
@@ -293,11 +307,53 @@ To use this code on your website, get a free API key from Google.
 Read more at: https://www.w3schools.com/graphics/google_maps_basic.asp
 -->
 
-<footer class="container-fluid text-center">
+<footer class="container-fluid text-center" style="background-color: #D8D8D8 ;">
   <a href="#content_wrapper" title="To Top">
     <span class="glyphicon glyphicon-chevron-up"></span>
   </a>
-  <p><b>Copyright © 2018</b> </p>
+  
+  <div class="row">
+    <div class="col-xs-6 col-sm-2">Information For
+      <ul style="list-style-type: none;margin: 0 ; padding: 0;">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#news">News</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <li><a href="#about">About</a></li>
+      </ul>
+    </div>
+    <div class="col-xs-6 col-sm-2"></div>
+    <div class="col-xs-6 col-sm-2">Help & Info
+      <ul style="list-style-type: none;margin: 0 ; padding: 0;">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#news">News</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li><a href="#about">About</a></li>
+      </ul>
+    </div>
+    <div class="col-xs-6 col-sm-2"></div>
+    <div class="col-xs-6 col-sm-2">Connect with :
+      <ul style="list-style-type: none; margin: 0 ; padding: 0;">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#news">News</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li><a href="#about">About</a></li>
+      </ul>
+    </div>
+    <div class="col-xs-6 col-sm-2"></div>
+  </div>
+  
+  <div class="collapse navbar-collapse" id="myNavbar">
+    <br>
+    <br>
+
+        <ul class="nav navbar-nav navbar-right">
+          <li><a><p><b>Copyright © 2018</b></p></a></li>
+          <li><a href="#tnc"><p><b>Terms & Conditions</b></p></a></li>
+          <li><a href="#ppc"><p><b>Privacy Policies & Cookies</b></p></a></li>
+          
+        </ul>
+  </div>
+
 </footer>
 
 <script>
